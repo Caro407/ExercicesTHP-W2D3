@@ -58,6 +58,7 @@ end
 
 def wtf_pyramid_dessus (number_floors)
     dessus = (number_floors - 1)/2
+
     dessus.times do |index_etages|
         index_etages = index_etages + 1
         colonnes = number_floors
@@ -78,6 +79,7 @@ end
 
 def wtf_pyramid_dessous(number_floors)
     dessous = (number_floors - 1)/2
+    
     dessous.times do |index_etages|
         index_etages = index_etages + 1
         colonnes = number_floors
